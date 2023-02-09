@@ -70,13 +70,13 @@ public class NodeHandler : INodeHandler
     public NodeHandler(NavigationManager navManager, IToastService toastService)
     {
         this.toastService = toastService;
-
-        var uriParams = QueryHelpers.ParseQuery(navManager.ToAbsoluteUri(navManager.Uri).Query);
-        if (uriParams.TryGetValue("parse", out var parseStrings)
-            && parseStrings is [{ } parseString])
-        {
-            TryCreateTreeFromRegex(parseString);
-        }
+        //TODO
+        //var uriParams = QueryHelpers.ParseQuery(navManager.ToAbsoluteUri(navManager.Uri).Query);
+        //if (uriParams.TryGetValue("parse", out var parseStrings)
+        //    && parseStrings is [{ } parseString])
+        //{
+        //    TryCreateTreeFromRegex(parseString);
+        //}
 
         Tree ??= CreateDefaultNodeTree();
     }

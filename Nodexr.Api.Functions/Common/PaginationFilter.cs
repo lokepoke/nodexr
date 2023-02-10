@@ -1,6 +1,6 @@
 ﻿namespace Nodexr.Api.Functions.Common;
 using Microsoft.EntityFrameworkCore;
-using Nodexr.Api.Contracts.Pagination;
+using Caesar.Api.Contracts.Pagination;
 
 public class PaginationFilter
 {

@@ -1,7 +1,7 @@
 ﻿namespace Nodexr.Api.Functions.Common;
 
 using MediatR;
-using Nodexr.Api.Contracts.Pagination;
+using Caesar.Api.Contracts.Pagination;
 
 public interface IPagedRequest<T> : IRequest<Paged<T>>
 {

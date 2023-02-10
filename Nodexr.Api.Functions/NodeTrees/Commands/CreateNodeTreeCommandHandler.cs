@@ -1,7 +1,7 @@
 ﻿namespace Nodexr.Api.Functions.NodeTrees.Commands;
 
 using MediatR;
-using Nodexr.Api.Contracts.NodeTrees;
+using Caesar.Api.Contracts.NodeTrees;
 using Nodexr.Api.Functions.Common;
 using Nodexr.Api.Functions.Models;
 

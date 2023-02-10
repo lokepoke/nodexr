@@ -21,7 +21,7 @@
     <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="4.0.1" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Nodexr.Api.Contracts\Nodexr.Api.Contracts.csproj" />
+    <ProjectReference Include="..\..\..\..\source\repos\Operation_Automation\Blazor\Caesar.Api.Contracts\Caesar.Api.Contracts.csproj" />
   </ItemGroup>
   <ItemGroup>
     <None Update="host.json">
